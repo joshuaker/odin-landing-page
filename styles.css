@@ -1,0 +1,64 @@
+body {
+    margin:0;
+}
+.wrapper {
+    margin: 0 15%
+}
+.hero {
+    background-color: #1f2937;
+    padding: 1em
+} 
+.hero header {
+    display:flex;
+}
+
+.hero header .logo{
+    margin-right: auto;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.menu {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    gap: 1em;
+}
+
+.menu, .left .text {
+    font-size: 18px;
+    color: #e6e7eb;
+}
+
+.hero .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7%;
+    margin-top: 7%;
+
+}
+
+.left {
+    flex-wrap: wrap;
+    max-width: 26em;
+}
+.left .title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.signup {
+    background-color: #3882f6;
+    color: white;
+    padding: 0.5em 2em;
+    margin-top: 1em;
+}
+
+.img {
+    color: white;
+    background-color: grey;
+    flex-grow: 1;
+}
+
