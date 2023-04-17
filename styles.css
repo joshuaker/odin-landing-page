@@ -21,6 +21,13 @@ header{
     text-decoration: none;
     gap: 0.5em;
 }
+
+.intro{
+    display: flex;
+    margin: 140px 250px;
+    justify-content: center;
+    align-items: center;
+}
 .intro .left {
     flex-wrap: wrap;
     max-width: 400px;
@@ -31,7 +38,7 @@ header{
     font-weight: 800;
 
 }
-.img-container {
+.intro .img-container {
     width: 620px;
     height: 280px;
     background-color: grey;
@@ -46,15 +53,6 @@ header{
     color: #e5e7eb;
 }
 
-
-.intro{
-    display: flex;
-    margin: 140px 250px;
-    justify-content: center;
-    align-items: center;
-}
-
-
 content{
     display: flex;
     flex-direction: column;
@@ -63,6 +61,7 @@ content{
 .information{
     display:flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     height: 620px;
     border: 1px solid black;
@@ -71,8 +70,13 @@ content{
     display:flex;
     justify-content: center;
     align-items: center;
+    gap: 60px;
 }
-
+.img-container {
+    border: 5px solid blue;
+    width: 190px;
+    height: 190px;
+}
 .container {
     display:flex;
     flex-direction: column;
@@ -80,10 +84,21 @@ content{
     flex-wrap: wrap;
     max-width: 200px;
 }
-
+.container .text {
+    font-size: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 190px;
+    color: darkgrey;
+}
 .quote{
     height: 530px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
 .banner-container{
     display:flex;
     justify-content: center;
