@@ -56,9 +56,42 @@ body {
     margin-top: 1em;
 }
 
-.img {
+.banner .img {
     color: white;
     background-color: grey;
     flex-grow: 1;
 }
 
+.info {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 7%;
+}
+
+.info .title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.info .img-series {
+    display:flex;
+    gap: 2em;
+}
+.img-text-set .img {
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+.img-text-set .text {
+    font-size: 18px;
+    color: grey;
+    flex-wrap: wrap;
+    max-width: 150px;
+    text-align: center;
+}
