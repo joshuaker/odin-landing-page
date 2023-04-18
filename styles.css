@@ -103,6 +103,8 @@ body {
     align-items: center;
     padding: 7%;
     background-color: #e5e7eb;
+    
+    
 }
 
 .quote .text{
@@ -110,10 +112,42 @@ body {
     font-style: italic;
     font-weight: 300;
     color: #1f2937;
+    flex-wrap: wrap;
+    max-width: 21em;
+    position: relative;
 }
 
 .quote .ascription {
     font-weight: 800;
     color: black;
-    align-self:flex-end;
+    position: absolute;
+    right: 0;
+    bottom: -25px;
+    text-align: right;
+    font-size: 18px;
+}
+
+.banner-button {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    display:flex;
+    background-color: #3882f6;
+    margin: 100px;
+    padding: 40px 120px;
+    border-radius: 10px;
+    gap: 120px;
+    box-sizing: border-box;
+}
+
+.banner .text {
+    color: white;
+}
+
+.text .main {
+    font-weight: 700;
+    font-size: 24px;
 }
