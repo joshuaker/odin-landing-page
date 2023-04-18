@@ -2,7 +2,7 @@ body {
     margin:0;
 }
 .wrapper {
-    margin: 0 15%
+    margin: 0 25%
 }
 .hero {
     background-color: #1f2937;
@@ -36,6 +36,7 @@ body {
     align-items: center;
     margin-bottom: 7%;
     margin-top: 7%;
+    gap: 2em;
 
 }
 
@@ -133,7 +134,7 @@ body {
     align-items: center;
 }
 
-.banner {
+.banner-button .banner {
     display:flex;
     background-color: #3882f6;
     margin: 100px;
@@ -150,4 +151,16 @@ body {
 .text .main {
     font-weight: 700;
     font-size: 24px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.footer .text {
+    color: white;
+    padding:  2em;
 }
